@@ -1,0 +1,10 @@
+{
+  "name": "superadri-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Landing de SuperAdri + función de solicitud de demo (Vercel + Resend)",
+  "dependencies": {
+    "resend": "^4.0.0"
+  }
+}
