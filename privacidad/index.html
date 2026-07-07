@@ -1,84 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Política de Privacidad — SuperAdri</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — SuperAdri</title>
+<meta name="description" content="Qué datos trata SuperAdri, con qué finalidad, cuánto tiempo y qué derechos te asisten (RGPD y LOPDGDD).">
 <style>
-  :root { --azul: #1f4e5f; --gris: #444; }
-  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--gris);
-         max-width: 760px; margin: 0 auto; padding: 2rem 1.2rem 4rem; line-height: 1.65; }
-  h1 { color: var(--azul); font-size: 1.7rem; }
-  h2 { color: var(--azul); font-size: 1.15rem; margin-top: 2rem; }
-  header { border-bottom: 3px solid var(--azul); padding-bottom: 1rem; margin-bottom: 2rem; }
-  .fecha { color: #888; font-size: .9rem; }
-  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #ddd; font-size: .85rem; color: #888; }
+:root{
+  --bg:#f7f6f2;--surface:#ffffff;--text:#1a1a19;--text-2:#52514e;--muted:#8b897f;
+  --border:rgba(11,11,11,.10);--accent:#185FA5;--accent-bg:#E6F1FB;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#151514;--surface:#1f1f1e;--text:#f5f4ef;--text-2:#c3c2b7;--muted:#8f8e88;
+  --border:rgba(255,255,255,.12);--accent:#7fb4ec;--accent-bg:#123a63;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:2.2rem 20px 4rem}
+a{color:var(--accent)}
+h1{font-size:1.7rem;font-weight:500;letter-spacing:-.01em;margin:0}
+h2{font-size:1.15rem;font-weight:500;color:var(--accent);margin:2.2rem 0 .6rem}
+p,ul{margin:.6rem 0;color:var(--text-2)}
+b,strong{color:var(--text)}
+header{border-bottom:2px solid var(--accent);padding-bottom:1rem;margin-bottom:1.6rem}
+.fecha{color:var(--muted);font-size:.9rem;margin-top:.4rem}
+.volver{font-size:.9rem;text-decoration:none}
+table{border-collapse:collapse;width:100%;font-size:.92rem;margin:.8rem 0}
+th,td{border:1px solid var(--border);padding:.55rem .7rem;text-align:left;color:var(--text-2)}
+th{background:var(--accent-bg);color:var(--text)}
+.aviso{background:var(--accent-bg);border-radius:12px;padding:14px 18px;font-size:.95rem}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--border);font-size:.85rem;color:var(--muted)}
+footer a{color:var(--muted)}
 </style>
 </head>
 <body>
+<div class="wrap">
 <header>
-  <h1>Política de Privacidad — SuperAdri</h1>
-  <p class="fecha">Última actualización: 4 de julio de 2026</p>
+  <a class="volver" href="/">← Volver a super-adri.com</a>
+  <h1 style="margin-top:.8rem">Política de privacidad</h1>
+  <p class="fecha">Última actualización: 8 de julio de 2026</p>
 </header>
 
-<p><strong>SuperAdri</strong> es un servicio de asistente operativo interno para
-clínicas, accesible a través de plataformas de mensajería (WhatsApp, Telegram).
-Esta política describe qué datos tratamos, con qué finalidad y qué derechos te
-asisten conforme al Reglamento (UE) 2016/679 (RGPD) y la LOPDGDD.</p>
+<p>Esta política describe qué datos personales tratamos, con qué finalidad,
+cuánto tiempo los conservamos y qué derechos te asisten, conforme al
+Reglamento (UE) 2016/679 (RGPD) y la LOPDGDD. Cubre dos ámbitos distintos:
+<b>esta web</b> (incluido el formulario de demo) y <b>el servicio SuperAdri</b>
+que se despliega en cada clínica.</p>
 
 <h2>1. Responsable del tratamiento</h2>
-<p>Responsable: el titular del servicio SuperAdri (super-adri.com).<br>
-Contacto para asuntos de privacidad: <a href="mailto:privacidad@super-adri.com">privacidad@super-adri.com</a></p>
+<p>El titular del proyecto SuperAdri, identificado en el
+<a href="/aviso-legal/">aviso legal</a>.<br>
+Contacto para asuntos de privacidad:
+<a href="mailto:privacidad@super-adri.com">privacidad@super-adri.com</a></p>
 
-<h2>2. Qué datos tratamos</h2>
+<h2>2. Esta web: el formulario de demo</h2>
+<p>Si solicitas una demo tratamos los datos que tú nos das: <b>nombre, nombre de
+la clínica, email y, si los indicas, teléfono y mensaje</b>.</p>
 <ul>
-  <li><strong>Datos de contacto de mensajería</strong>: número de teléfono y nombre de perfil
-      de las personas autorizadas que escriben al asistente.</li>
-  <li><strong>Contenido de los mensajes</strong>: las consultas operativas dirigidas al asistente
-      y sus respuestas.</li>
-  <li><strong>Datos técnicos de servicio</strong>: registros de actividad necesarios para la
-      operación, seguridad y diagnóstico del sistema.</li>
+  <li><b>Finalidad:</b> responder a tu solicitud y coordinar la demostración.
+      Nada más: ni publicidad no pedida, ni cesión a terceros.</li>
+  <li><b>Base jurídica:</b> la aplicación de medidas precontractuales a petición
+      tuya (art. 6.1.b RGPD).</li>
+  <li><b>Proveedores que intervienen</b> (encargados de tratamiento): Vercel Inc.
+      (alojamiento de la web y del formulario) y Resend (envío del email de
+      aviso), con transferencias internacionales amparadas en cláusulas
+      contractuales tipo de la Comisión Europea.</li>
 </ul>
-<p><strong>El servicio no está destinado a tratar datos de pacientes.</strong> Las normas de uso
-prohíben introducir nombres, teléfonos, historias clínicas, diagnósticos o cualquier
-información identificable de pacientes. El asistente está configurado para rechazar
-este tipo de contenido.</p>
 
-<h2>3. Finalidad y base jurídica</h2>
-<p>Los datos se tratan para prestar el servicio de asistencia operativa interna al
-equipo autorizado de cada organización cliente (art. 6.1.b RGPD, ejecución de la
-relación de servicio) y para garantizar la seguridad del sistema (art. 6.1.f RGPD,
-interés legítimo).</p>
+<h2>3. El servicio SuperAdri (en clínicas)</h2>
+<p>SuperAdri es un asistente operativo interno al que el equipo autorizado de la
+clínica escribe por WhatsApp. En ese ámbito, <b>la clínica es la responsable del
+tratamiento y nosotros actuamos como encargados</b>, con contrato de encargo
+(art. 28 RGPD). Tratamos:</p>
+<ul>
+  <li><b>Datos de contacto de mensajería</b>: número de teléfono y nombre de
+      perfil de las personas autorizadas.</li>
+  <li><b>Contenido de los mensajes</b>: las consultas operativas y sus respuestas.</li>
+  <li><b>Registros técnicos</b> necesarios para operar, asegurar y diagnosticar
+      el sistema.</li>
+</ul>
+<p class="aviso"><b>El servicio no está destinado a tratar datos de pacientes.</b>
+Las normas de uso prohíben introducir información identificable de pacientes y
+el asistente está configurado para rechazarla. Solo pueden escribirle los
+números expresamente autorizados por la clínica (lista de acceso).</p>
+<p><b>Subencargados del servicio:</b> Meta Platforms Ireland Ltd. (plataforma
+WhatsApp Business), el proveedor del modelo de lenguaje y Cloudflare, Inc.
+(infraestructura de red), todos con mecanismos de transferencia internacional
+(cláusulas contractuales tipo). Las conversaciones del servicio <b>no se
+utilizan para entrenar modelos de inteligencia artificial</b>, ni por nosotros
+ni por terceros por encargo nuestro.</p>
 
-<h2>4. Acceso restringido</h2>
-<p>Solo pueden interactuar con el asistente los números de teléfono expresamente
-autorizados por la organización cliente (lista de acceso). Los mensajes de números
-no autorizados no son atendidos.</p>
+<h2>4. Cuánto tiempo conservamos cada dato</h2>
+<table>
+  <tr><th>Dato</th><th>Plazo de conservación</th></tr>
+  <tr><td>Solicitudes de demo (formulario)</td><td>Hasta 12 meses desde el último contacto</td></tr>
+  <tr><td>Conversaciones con el asistente</td><td>30 días (purga automática)</td></tr>
+  <tr><td>Registros técnicos</td><td>Rotación corta, solo para operación y seguridad</td></tr>
+</table>
 
-<h2>5. Encargados y transferencias</h2>
-<p>El servicio utiliza la plataforma WhatsApp Business (Meta Platforms Ireland Ltd.)
-como canal de mensajería y servicios de infraestructura de red (Cloudflare, Inc.).
-Estos proveedores actúan conforme a sus propias condiciones y mecanismos de
-transferencia internacional (cláusulas contractuales tipo).</p>
-
-<h2>6. Conservación</h2>
-<p>Los registros de conversación y actividad se conservan únicamente el tiempo
-necesario para la prestación del servicio y su mejora, y se eliminan o anonimizan
-periódicamente conforme a la política de retención vigente.</p>
-
-<h2>7. Tus derechos</h2>
+<h2>5. Tus derechos</h2>
 <p>Puedes ejercer los derechos de acceso, rectificación, supresión, oposición,
 limitación y portabilidad escribiendo a
 <a href="mailto:privacidad@super-adri.com">privacidad@super-adri.com</a>.
-También puedes reclamar ante la Agencia Española de Protección de Datos (aepd.es).</p>
+Si consideras que no los hemos atendido, puedes reclamar ante la Agencia
+Española de Protección de Datos (<a href="https://www.aepd.es" rel="noopener">aepd.es</a>).</p>
 
-<h2>8. Cookies</h2>
-<p>Este sitio web es informativo y no utiliza cookies de seguimiento.</p>
+<h2>6. Cookies</h2>
+<p>Esta web no utiliza cookies ni tecnologías de seguimiento de terceros. Si
+algún día incorporamos analítica, pediremos consentimiento antes y lo
+reflejaremos aquí.</p>
 
-<h2>9. Cambios en esta política</h2>
-<p>Publicaremos aquí cualquier actualización de esta política indicando su fecha de
-revisión.</p>
+<h2>7. Cambios en esta política</h2>
+<p>Publicaremos aquí cualquier actualización, indicando su fecha de revisión.</p>
 
-<footer>© 2026 SuperAdri · super-adri.com</footer>
+<footer>© <span id="yr">2026</span> SuperAdri · <a href="/">Inicio</a> ·
+<a href="/aviso-legal/">Aviso legal</a>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</footer>
+</div>
 </body>
 </html>
